@@ -44,8 +44,10 @@ Fill in **UUID** for the variable name and your UUID for the value, then click `
 
 ### Enable online editing of the preferred list
 - Bind the KV space named `KV`, and you can edit the `ADD` and `ADDAPI` preferred lists online on the configuration page without `SUB`;
+</details>
 
 ### **About `KEY` and `UUID`:**
+<details>
 - After filling in the `KEY` variable, the `UUID` variable will be disabled, please make sure to **choose one of the two**!
  1. After filling in `KEY`, your **permanent subscription** address is: `https://[YOUR-URL]/[YOUR-KEY]`;
 2. When using dynamic `UUID` to subscribe:
@@ -62,6 +64,7 @@ Fill in **UUID** for the variable name and your UUID for the value, then click `
 
 ### **When both `SUB` and `ADD*` are empty:**
 - The script will automatically generate a line based on CF random IP. A different random IP will be generated each time the subscription is updated to ensure that your subscription will not be disconnected!
+</details>
 
 # Practical Tips
 This project provides a flexible subscription configuration solution and supports quick customization of subscription content through URL parameters.
